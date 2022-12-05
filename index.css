@@ -1,0 +1,126 @@
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    margin: 0px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+  .container {
+    margin-top: 69px;
+  }
+  
+  /*navigation*/
+  nav {
+    height: 69px;
+    width: 100%;
+    border-bottom: 2px solid seashell;
+    position: fixed;
+    top: 0;
+    background-color: black;
+    z-index: 2;
+  }
+
+  li {
+    list-style-type: none;
+    display: inline;
+    float: right;
+    margin: 10px;
+  }
+
+  a {
+    color: seashell;
+  }
+
+  a:hover {
+    text-shadow: 0px 0px 8px whitesmoke;
+  }
+
+  nav img {
+    height: 50px;
+    float: left;
+    margin: 9.5px 0px 9.5px 10px;
+  }
+
+  /*mission*/
+ .berry {
+  background-image: url("/Users/douglasmarsalis/projects/teacozy_html/resources/images/img-mission-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 700px;
+  width: 1200px;
+  margin: auto;
+  position: relative;
+  z-index: 1;
+ }
+
+ .berry-text {
+position: absolute;
+text-align: center;
+width: 100%;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+background-color: black;
+color:mediumpurple;
+opacity: 0.9;
+ }
+
+ /*tea of the month*/
+.tea-of-the-month {
+  display: flex;
+  flex-flow: row wrap;
+  width: 1000px;
+  margin: auto;
+  justify-content: center;
+  column-gap: 20px;
+  row-gap: 10px;
+}
+
+.tea-of-the-month img:hover {
+  box-shadow: 0px 0px 30px whitesmoke;
+}
+
+/*locations*/
+.locations {
+  background-image: url(/Users/douglasmarsalis/projects/teacozy_html/resources/images/img-locations-background.jpg);
+  background-position: 50% 20%;
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 1200px;
+  margin: auto;
+  display: inline-flex;
+  position: relative;
+  flex-flow: column no-wrap;
+  justify-content: center;
+  align-items: center;
+  column-gap: 40px;
+}
+
+.locations address {
+  background-color: black;
+  width: 300px;
+  opacity: 1;
+}
+
+.locations-title {
+  position: absolute;
+  bottom: 80%;
+}
+
+.locations address:hover {
+  box-shadow: 0px 0px 30px white;
+}
+
+/*footers*/
+.main-footer {
+  height: 200px;
+}
+
+.copyright {
+  position: absolute;
+  left: 20px;
+}
